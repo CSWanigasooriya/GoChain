@@ -1,0 +1,1 @@
+curl -d '{"privKey":"2cbacc25c50e2152269134c89a2fee1a8c9319c54c5e04d916b2ad28a747c2c0", "to":"0xff55e2F88ADAD77c816cED54b8D342988d889e01", "amount":1000000000000000000}' -H "Content-Type: application/json" -X POST http://localhost:8080/api/v1/eth/send-eth
